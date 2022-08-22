@@ -1,0 +1,34 @@
+.aside {
+  height: 100%;
+  background-color: #ffffff1a;
+  width: calc(var(--vw) * 12.317210348706412);
+  flex-shrink: 0;
+}
+
+  .aside .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: calc(var(--vh) * 25.5);
+  }
+
+  .aside .menu li a {
+        font-size: calc(var(--vw) * 1.6141732283464567);
+        font-weight: 500;
+        letter-spacing: 0.001em;
+        color: #fff;
+        transition: opacity 0.3s ease-in-out;
+      }
+
+  .aside .menu li a:hover {
+          opacity: 0.8;
+        }
+
+  .aside .menu li.active a {
+          font-weight: 700;
+          font-size: calc(var(--vw) * 1.850112485939258);
+        }
+
+  .aside .menu li:not(:last-of-type) {
+        margin-bottom: calc(var(--vw) * 3.318335208098987);
+      }

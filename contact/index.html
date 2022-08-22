@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mid-Autumn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Mid-Autumn Festival, also know as the Moon Festival or Mooncake Festival, is a traditional festival celebrated in Chinese culture.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <script>
+      window.addEventListener('DOMContentLoaded', function(){
+        calculateViewport();
+      });
+      
+      window.addEventListener('resize', function() {
+        console.log('alo')
+        calculateViewport();
+      })
+      
+      function calculateViewport() {
+        var bodyWidth = (document.body && document.body.clientWidth) || 0; 
+        var vw = (bodyWidth / 100) + 'px';
+        var vh = (window.innerHeight / 100) + 'px';
+        document.documentElement.style.setProperty('--vw', vw); 
+        document.documentElement.style.setProperty('--vh', vh);
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="root">
+      <header class="header">
+        <h1 class="logo"><a href="/"> <img src="./assets/images/top/logo.png" alt="Mid-Autumn"></a></h1>
+      </header>
+      <main class="main" id="main">
+        <p>Contact </p>
+      </main>
+      <aside class="aside">
+        <ul class="menu">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Location</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="social">
+          <li><a href="#"><i class="glyps-fb"></i></a></li>
+          <li><a href="#"><i class="glyps-instagram"></i></a></li>
+          <li><a href="#"><i class="glyps-twitter"></i></a></li>
+        </ul>
+      </aside>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

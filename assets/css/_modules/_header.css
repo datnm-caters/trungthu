@@ -1,0 +1,15 @@
+.header {
+  position: absolute;
+  top: calc(var(--vh) * 14.000000000000002);
+  left: calc(var(--vw) * 10.123734533183352);
+}
+
+  .header .logo {
+    width: calc(var(--vw) * 10.433070866141732);
+    height: calc(var(--vw) * 3.458942632170978);
+  }
+
+  .header .logo img {
+      width: 100%;
+      height: 100%;
+    }

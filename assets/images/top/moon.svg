@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="260.84" height="260.84" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 260.84 260.84">
+  <defs>
+    <radialGradient id="d" cx="151.99" cy="88.6" fx="151.99" fy="515.97" r="427.37" gradientTransform="translate(0 52.55) scale(1 .41)" gradientUnits="userSpaceOnUse">
+      <stop offset=".17" stop-color="#eedb5c" stop-opacity="0"/>
+      <stop offset=".24" stop-color="#eeda5c" stop-opacity=".03"/>
+      <stop offset=".35" stop-color="#efda5f" stop-opacity=".12"/>
+      <stop offset=".49" stop-color="#f2da63" stop-opacity=".26"/>
+      <stop offset=".65" stop-color="#f5da69" stop-opacity=".46"/>
+      <stop offset=".82" stop-color="#f9d970" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#fed979"/>
+    </radialGradient>
+  </defs>
+  <g id="c" data-name="OBJECTS">
+    <circle cx="130.42" cy="130.42" r="130.42" fill="url(#d)"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "icons";
+  src: url("../static/icons.eot?4c40445190168f9dedd6e955b9b5bb3a#iefix")
+      format("embedded-opentype"),
+    url("../static/icons.woff2?4c40445190168f9dedd6e955b9b5bb3a")
+      format("woff2"),
+    url("../static/icons.woff?4c40445190168f9dedd6e955b9b5bb3a") format("woff");
+}
+
+@font-face {
+  font-family: "ceviche_oneregular";
+  src: url("../static/cevicheone-regular-webfont.woff2") format("woff2"),
+    url("../static/cevicheone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+i[class^="dicon-"]:before,
+i[class*=" dicon-"]:before {
+  font-family: icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dicon-012-droplet:before {
+  content: "\f101";
+}
+
+.dicon-013-paint-format:before {
+  content: "\f102";
+}
+
+.dicon-014-image:before {
+  content: "\f103";
+}
+
+.dicon-015-images:before {
+  content: "\f104";
+}

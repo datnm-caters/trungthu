@@ -1,0 +1,308 @@
+:root {
+  --vw: 10px;
+  --vh: 10px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+main {
+  display: block;
+}
+
+figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  /* width: 100%; */
+  width: auto;
+  height: auto;
+}
+
+[class^="glyphs-"] {
+  line-height: 1;
+  font-weight: normal;
+}
+
+[class^="glyphs-"]:before,
+[class*=" glyphs-"]:before {
+  line-height: 1;
+  vertical-align: middle;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* stylelint-disable -- This problem is ignorable. */
+
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+@font-face {
+  font-family: "icons";
+  src: url("../static/icons.eot?4c40445190168f9dedd6e955b9b5bb3a#iefix")
+      format("embedded-opentype"),
+    url("../static/icons.woff2?4c40445190168f9dedd6e955b9b5bb3a")
+      format("woff2"),
+    url("../static/icons.woff?4c40445190168f9dedd6e955b9b5bb3a") format("woff");
+}
+
+@font-face {
+  font-family: "ceviche_oneregular";
+  src: url("../static/cevicheone-regular-webfont.woff2") format("woff2"),
+    url("../static/cevicheone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+i[class^="dicon-"]:before,
+i[class*=" dicon-"]:before {
+  font-family: icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dicon-012-droplet:before {
+  content: "\f101";
+}
+
+.dicon-013-paint-format:before {
+  content: "\f102";
+}
+
+.dicon-014-image:before {
+  content: "\f103";
+}
+
+.dicon-015-images:before {
+  content: "\f104";
+}
+
+.header {
+  position: absolute;
+  top: calc(var(--vh) * 14.000000000000002);
+  left: calc(var(--vw) * 10.123734533183352);
+}
+
+.header .logo {
+    width: calc(var(--vw) * 10.433070866141732);
+    height: calc(var(--vw) * 3.458942632170978);
+  }
+
+.header .logo img {
+      width: 100%;
+      height: 100%;
+    }
+
+.aside {
+  height: 100%;
+  background-color: #ffffff1a;
+  width: calc(var(--vw) * 12.317210348706412);
+  flex-shrink: 0;
+}
+
+.aside .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: calc(var(--vh) * 25.5);
+  }
+
+.aside .menu li a {
+        font-size: calc(var(--vw) * 1.6141732283464567);
+        font-weight: 500;
+        letter-spacing: 0.001em;
+        color: #fff;
+        transition: opacity 0.3s ease-in-out;
+      }
+
+.aside .menu li a:hover {
+          opacity: 0.8;
+        }
+
+.aside .menu li.active a {
+          font-weight: 700;
+          font-size: calc(var(--vw) * 1.850112485939258);
+        }
+
+.aside .menu li:not(:last-of-type) {
+        margin-bottom: calc(var(--vw) * 3.318335208098987);
+      }
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+:root {
+  --font-base: "Montserrat", sans-serif;
+}
+
+body {
+  color: #fff;
+  font-family: var(--font-base);
+}
+
+.main {
+  position: relative;
+}
+
+.main:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/common/flower.svg") top calc(var(--vh) * 6) left calc(var(--vw) * 3.655793025871766)
+        no-repeat,
+      url("../images/common/flower.svg") bottom calc(var(--vh) * 10) right calc(var(--vw) * 6.186726659167604) no-repeat,
+      url("../images/common/circle.png") bottom calc(var(--vh) * 39.25) left calc(var(--vw) * -2.81214848143982) no-repeat,
+      url("../images/common/circle-wave.svg") bottom calc(var(--vh) * -20.150000000000002) right calc(var(--vw) * 30.455568053993247)
+        no-repeat,
+      url("../images/common/circle.png") top calc(var(--vh) * -3) right calc(var(--vw) * 11.473565804274466) no-repeat,
+      url("../images/common/decorate1.svg") bottom calc(var(--vh) * -2.5) left calc(var(--vw) * 24.746906636670417)
+        no-repeat,
+      url("../images/common/decorate2.svg") top calc(var(--vh) * 2.1) left calc(var(--vw) * 28.40269966254218) no-repeat;
+    background-size: calc(var(--vw) * 3.43082114735658) calc(var(--vw) * 3.290213723284589), calc(var(--vw) * 3.43082114735658) calc(var(--vw) * 3.290213723284589), calc(var(--vw) * 5.483689538807649) calc(var(--vw) * 5.483689538807649),
+      calc(var(--vw) * 18.47581552305962) calc(var(--vw) * 17.82902137232846), calc(var(--vw) * 3.318335208098987) calc(var(--vw) * 3.318335208098987), calc(var(--vw) * 29.105736782902135) calc(var(--vw) * 30.708661417322837), calc(var(--vw) * 23.509561304836897) calc(var(--vw) * 22.21597300337458);
+    width: 100%;
+    height: 100%;
+  }
+
+.content {
+  position: relative;
+  z-index: 2;
+}
